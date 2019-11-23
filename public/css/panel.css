@@ -1,0 +1,852 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+/*====================================================
+                       CONTENT (Generic)
+======================================================*/
+ul{
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none
+}
+.icon-blue{
+    color: #007bff;
+    font-size: 17px;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/*====================================================
+                       CONTENT (Generic)
+======================================================*/
+#app{
+    background-color: #f4f7f6;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 14px;
+    color: #5A5A5A;
+    height: 100%;
+    width: 100%;
+
+}
+#dash-content{
+    padding-top: 65px;
+}
+#sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+    overflow: hidden;
+
+  }
+  .user-account{
+      margin: 20px;
+  }
+
+  .profile-pic{
+
+    width: 50px;
+    vertical-align: top;
+    border: 2px solid #dfdfdf;
+    height: 50px;
+    float: left;
+    margin-left: 8px;
+
+}
+.bus-displaye{
+    width: 150px;
+    border: 2px solid #dfdfdf;
+    height: 150px;
+    margin-top:0;
+    padding-top: 0;
+}
+.round-pic{
+    border-radius: 50%!important;
+}
+.profile-name{
+    margin-top: 7px;
+    margin-left: 60px;
+}
+.user-name{
+    color: #303030;
+    font-family: Ubuntu,sans-serif;
+}
+.user-name:hover{
+    color: #303030;
+    text-decoration: none;
+    font-family: Ubuntu,sans-serif;
+}
+.account{
+    background-color: #303030;
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    display: none;
+    z-index:99;
+    content: attr(data-tooltip);
+    position: absolute;
+
+    }
+.account li a{
+    color: white;
+    text-decoration: none;
+
+    }
+.account li{
+    padding-top: 10px;
+    }
+.account li a:hover{
+    color: white;
+    text-decoration: none;
+    }
+.panel-title{
+    margin-top: 25px;
+    width:100%;
+
+    }
+.title-panel{
+    margin-left: 0;
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 0 !important;
+    padding-left: 30px !important;
+    border: 1px solid #dee2e6;
+    border-bottom: none !important;
+    border-left: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: #007bff;
+    border-radius: 5px;
+
+    }
+.panel-border{
+    border-bottom:1px solid #dee2e6;
+    width: 100%;
+}
+.side-navs{
+margin-top: 10px;
+overflow: hidden;
+}
+
+.main-menu{
+padding-left:0px ;
+margin-top: 10px;
+margin-left: 0px;
+
+}
+.main-menu li{
+    padding-top:12px;
+    padding-bottom:12px;
+    margin-top: 8px;
+    }
+    .sub-menu{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .sub-menu a{
+        margin-left: 0;
+        padding-left: 0;
+    }
+.main-menu li a{
+   padding-left: 20px;
+   font-size: 17px;
+   color: #303030;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .dropdown-btn{
+        padding-left: 20px;
+        font-size: 17px;
+        color: #303030;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: none;
+        outline: none;
+        text-decoration: none;
+        display: block;
+        border: none;
+    }
+    /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.drop-down {
+    display: none;
+    background-color:#f4f7f6;
+    /*  z-index:99;
+    content: attr(data-tooltip);
+    position: absolute;*/
+
+
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+ .main-menu li:hover{
+   background-color: #eee9e9;
+    }
+.main-menu li a:hover{
+    text-decoration: none;
+    }
+.active{
+   background-color: #eee9e9;
+    }
+.icon-menu{
+   color:#ef476f;
+   padding-right: 10px;
+}
+#main-dashbord{
+    margin-left: 300px;
+    padding: 0px 10px;
+    margin-top: 15px;
+
+}
+
+.link-dash{
+    font-size: 14px;
+}
+
+.panel-cont{
+    margin-top: 1px;
+}
+.employer-panel{
+height: 159px;
+background-color: #fff;
+border-radius:10px;
+margin-top: 15px;
+}
+.employer-p{
+margin-top: 30px;
+height: 159px;
+background-color: #fff;
+border-radius:10px;
+
+}
+.income-analysis{
+height: 348px;
+background-color: #fff;
+margin-top: 15px;
+border-radius: 10px;
+
+}
+
+.salary-statistic{
+    height: 348px;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-right: 5px;
+
+
+}
+.panel-employee .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: .55rem;
+    margin-top: 20px;
+}
+.salary-total .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: .55rem;
+    margin-top: 20px;
+}
+.salary-avg .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: .55rem;
+    margin-top: 1px;
+}
+.panel-employees .icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: .55rem;
+    margin-bottom: 5px;
+}
+.icon .icons{
+    margin:16px ;
+    font-size:18px;
+}
+.contentss{
+    top: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+.contentsss{
+    top: 5px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+.salary-total-content{
+    top: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+.salary-avg-content{
+    top: 5px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+.company-admin{
+    background-color: white;
+    margin-top: 29px;
+    height: 650px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.carding {
+    border-radius: .55rem;
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    margin-top: 29px;
+    height: 650px;
+}
+.cards {
+    border-radius: .55rem;
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    margin-top: 29px;
+
+}
+.card .header {
+    color: #444;
+    padding: 20px;
+    position: relative;
+    box-shadow: none;
+}
+.card .header h2 {
+    font-size: 16px;
+    color: #444;
+    position: relative;
+}
+.card .body {
+    color: #444;
+    padding: 20px;
+    font-weight: 400;
+}
+
+.holiday{
+    border-radius: .55rem;
+    background: #fff;
+    transition: .5s;
+    border: 0;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    margin-top: 29px;
+    min-height: 600px;
+}
+.holiday-header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 17px 0px 17px 30px;
+    font-weight: bold;
+}
+.contain{
+
+    margin:0 45px 0 45px ;
+}
+.holiday-list-header{
+    background-color: #343a40;
+    padding: 8px;
+    margin-top: 25px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: .25rem;
+    border-color: #454d55;
+    border-bottom-style: solid;
+    border: 1px;
+}
+.event{
+    margin-top: 20px;
+}
+.card-event{
+    min-height: 400px;
+    background-color: #fff;
+    border-radius: .55rem;
+    border-color: #454d55;
+    border-bottom-style: solid;
+    border: 1px;
+}
+.card-header{
+    background-color: #fff;
+    border-radius: .55rem;
+    border-color: #454d55;
+    border-bottom-style: solid;
+    border: 1px;
+    margin-bottom: 20px;
+}
+.add-event-botton{
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: .25rem;
+}
+.button-text{
+    margin-left: 130px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.image-company-show{
+    height: 100px;
+    width: 150px;
+}
+.page-calendar .event-name h6 {
+	text-transform: capitalize
+}
+
+.page-calendar .event-name h4 {
+	font-size: 25px;
+	line-height: 24px
+}
+
+.calender{
+    height: 100%;
+}
+.page-calendar .event-name h4 span {
+	font-size: 11px;
+	line-height: 16px
+}
+
+.page-calendar .event-name p {
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	text-overflow: ellipsis
+}
+
+.page-calendar .event-name address {
+	font-size: 11px
+}
+
+.page-calendar .event-name address i {
+	font-size: 12px
+}
+.headers{
+    height: 80px;
+}
+.bus-header{
+    height: 100px;
+    border-bottom: 5px solid salmon;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-right: 5px solid salmon;
+    border-left: 5px solid salmon;
+    border-top-right-radius: 36px;
+    border-top-left-radius: 36px;
+
+}
+.header-bus{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.bus-seat{
+    border-left: 5px solid salmon;
+    border-right: 5px solid salmon;
+    border-bottom: 5px solid salmon;
+    padding-left: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.bus-display{
+background-color: #fff;
+    margin-top: 250px;
+    padding: 30px;
+    border-radius: 7px;
+   }
+
+.display{
+
+ margin-top: 100px;
+}
+.seat{
+    height: 35px;
+    width: 20px;
+}
+
+.seat-icon{
+
+    cursor:pointer;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-image: url(../images/seat-available.png);
+    height: 30px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+    overflow: hidden;
+}
+.booked{
+
+    cursor:not-allowed;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-image: url(../images/seat-booked.png);
+    height: 30px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5px;
+    padding-left:7px;
+    font-size: 12px;
+    border: none;
+    overflow: hidden;
+}
+.selected{
+
+    cursor:pointer;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-image: url(../images/seat-selected.png);
+    height: 30px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+    overflow: hidden;
+}
+.bus-map{
+    width: 300px;
+
+}
+.booking-bus{
+
+    padding: 120px;
+    border-radius: 40px;
+}
+.j-detail{
+
+    border-radius: 20px;
+
+    margin-right: 10px;
+}
+.b-detail{
+
+    border-radius: 20px;
+
+    margin-left: 10px;
+}
+.ticket-no{
+    padding-right: 10px;
+}
+
+
+/*----------------------------*\
+	Sections
+\*----------------------------*/
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-grey {
+    background: #F6F7F8;
+  }
+
+  .section-title {
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #DADADA;
+  }
+
+  .section-title .title {
+    display: inline-block;
+    text-transform: uppercase;
+  }
+
+  .section-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1.5px;
+    height: 3px;
+    width: 60px;
+    background-color: blue;
+  }
+  /*----------------------------*\
+	Inputs
+\*----------------------------*/
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 15px;
+    border: none;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+
+  .input:focus {
+    -webkit-box-shadow: 0px 0px 0px 1px maroon inset, 0px 0px 0px 0px maroon;
+    box-shadow: 0px 0px 0px 1px maroon inset, 0px 0px 0px 0px maroon;
+  }
+
+  textarea.input {
+    padding: 15px;
+  }
+
+  .input-checkbox .caption {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.3s max-height;
+    transition: 0.3s max-height;
+  }
+
+  .input-checkbox>label {
+    color: #30323A;
+  }
+
+  .input-checkbox input[type="checkbox"]:checked+label+.caption, .input-checkbox input[type="radio"]:checked+label+.caption {
+    max-height: 800px;
+  }
+  .contain{
+      margin-left: 200px;
+      margin-right: 100px;
+  }
+
+
+  .pull-right {
+    float: none !important;
+    margin-top: 10px;
+  }
+  .primary-btn {
+    display: inline-block;
+    padding: 3px 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background-color: blue;
+  }
+  .primary-btn:hover, .primary-btn:focus {
+    color: #FFF;
+    background-color: #30323A;
+  }
+/*-------------navigation-------------------*/
+#navbar ul{
+
+    font-size: 20px;
+    padding: 5px;
+}
+.list{
+  margin-left: 20%;
+  margin-top: 0px;
+}
+#navbar ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+#navbar ul li a{
+    color: #8470ff;
+    text-decoration:none;
+}
+#navbar ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+
+}
+#navbar{
+    background-color: #fff;
+    top: 0;
+  	left: 0;
+  	z-index: 9999;
+     width: 100%;
+     height: 80px;
+    }
+
+@media only screen and (max-width: 768px) {
+   #navbar ul li{
+       display: none;
+   }
+   .navbar ul li{
+       display: block;
+   }
+   #navbar{
+background-color: #fff;
+}
+.toggle-nav{
+font-size: 25px;
+float: right;
+}
+
+}
+
+    @media only screen and (min-width: 768px) {
+        .nav-bar{
+            background-color: #fffcf9;
+        }
+        #navbar{
+
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+
+        }
+        .toggle-nav{
+         display: none;
+        }
+    }
+.logo{
+    font-size: 30px;
+}
+.style-list-table{
+    font-size: 13px;
+}
+
+
+/*============invoice=========================*/
+
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+
+
+
+
+
+
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td{
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+/** RTL **/
+.rtl {
+    direction: rtl;
+    font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.rtl table {
+    text-align: right;
+}
+
+.rtl table tr td:nth-child(2) {
+    text-align: left;
+}

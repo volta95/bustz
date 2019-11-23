@@ -1,0 +1,859 @@
+/*
+color pattern:
+white-#fff--->
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body{
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+top: 0px;
+}
+.modal {
+    position: absolute;
+    top: 100px;
+    z-index: 10040;
+    overflow: auto;
+    overflow-y: auto;
+ }
+
+
+ul{
+    list-style-type: none;
+}
+.bg-parralax{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.facebook-color{
+    color: #3b5998;
+}
+.twitter-color{
+    color:#38A1F3
+}
+.instagram-color{
+    color: #c13584;
+}
+.pinterest-color{
+    color: #c8232c;
+}
+/*-------------home-------------------*/
+
+/*-------------background-------------------*/
+#home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner1.jpg');
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+
+}
+
+/*-------------logo-------------------*/
+#logo{
+  margin-top: 0%;
+  padding-top: 0%;
+  float: left;
+}
+#logo-image{
+  width: 100px;
+  height: 70px;
+  margin-top: 0%;
+  padding-top: 0%;
+
+}
+
+@media (max-width: 575px) {
+  #logo-image{
+    width: 60px;
+    height: 40px;
+    margin-top: 0%;
+    padding-top: 0%;
+
+  }
+
+    }
+
+@media (max-width: 767px) {
+  #logo-image{
+    width: 90px;
+    height: 67.5px;
+    margin-top: 0%;
+    padding-top: 0%;
+
+  }
+
+ }
+
+
+@media (max-width: 991px) {
+  #logo-image{
+    width: 120px;
+    height: 90px;
+    margin-top: 0%;
+    padding-top: 0%;
+
+  }
+
+ }
+
+
+@media (max-width: 1199px) {
+  #logo-image{
+    width: 120px;
+    height: 90px;
+    margin-top: 0%;
+    padding-top: 0%;
+
+  }
+
+}
+
+/*-------------navigation-------------------*/
+#navbar ul{
+
+    font-size: 20px;
+    padding: 5px;
+}
+.list{
+  margin-left: 20%;
+  margin-top: 20px;
+}
+#navbar ul li{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.navi-link{
+    color: #fff;
+    text-decoration:none;
+}
+.navi-link:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 575px) {
+  #navbar ul li{
+    display: none;
+}
+.navbar ul li{
+    display: block;
+}
+#navbar{
+background-color: #fff;
+}
+.toggle-nav{
+font-size: 1em;
+float: right;
+}
+    }
+
+    @media (max-width: 767px) {
+      #navbar ul li{
+        display: none;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    #navbar{
+ background-color: #fff;
+ }
+ .toggle-nav{
+ font-size: 1em;
+ float: right;
+ }
+
+      }
+
+
+@media only screen and (max-width: 680px) {
+   #navbar ul li{
+       display: none;
+   }
+   .navbar ul li{
+       display: block;
+   }
+   #navbar{
+background-color: #fff;
+}
+.toggle-nav{
+font-size: 25px;
+float: right;
+}
+
+}
+
+    @media only screen and (min-width: 680px) {
+        .nav-bar{
+            background-color: #fffcf9;
+        }
+        #navbar{
+
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+
+        }
+        .toggle-nav{
+         display: none;
+        }
+    }
+.logo{
+    font-size: 30px;
+}
+/*-------------form-------------------*/
+.home-block{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.home-content{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+float: left;
+color:#fffcf9;
+font-size: 20px;
+margin-top: 30%;
+
+}
+
+@media (max-width: 575px) {
+    .home-content{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        float: left;
+        color:#fffcf9;
+        font-size: 20px;
+        margin-top: 0%;
+
+        }
+}
+
+.trip-info{
+  margin: 5px;
+}
+.calender{
+  float: left;
+  width: 88%;
+  margin-right: 2%;
+}
+
+.btn-check-trip{
+  background-color: Transparent;
+  border: 2px solid #fff;
+  padding: 5px;
+  color: #fff;
+  border-radius: 0.55rem;
+ float: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+}
+.btn-check-trip:hover{
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 5px;
+  color: #8470ff;
+  transition: all 0.2s ease;
+  border-radius: 0.55rem;
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+}
+.btn-reset-trip{
+  background-color: Transparent;
+  border: 2px solid #fff;
+  padding: 5px;
+  color: #fff;
+  border-radius: 0.55rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 60px;
+  float: right;
+
+}
+.btn-reset-trip:hover{
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 5px;
+  color: #8470ff;
+  border-radius: 0.55rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 60px;
+  float: right;
+
+}
+/*-------------social media-------------------*/
+    .social-media-icons{
+        float: right;
+        margin-top: 8%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+
+
+    .social-media-icons ul{
+        list-style-type: none;
+    }
+    .social-media-icons ul li{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .social-icons{
+        font-size: 35px;
+        padding-right: 10px;
+        margin-right: 0;
+        color: #8470ff
+      }
+      .social-icons:hover{
+        font-size: 35px;
+        padding-right: 10px;
+        margin-right: 0;
+        color: grey
+      }
+
+/*------------about-------*/
+/*------------image diagonal-------*/
+#about-bg-diagonal {
+background-image: url(../images/computer.jpg);
+height: 550px;
+width: 50%;
+float: right;
+border-left: 300px solid #f4f7f6;
+border-top: 550px solid transparent;
+
+}
+#about{
+  padding-top: 150px;
+  background-color: #f4f7f6;
+  padding-bottom: 245px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#about-content-box{
+padding-top: 100px;
+}
+/*============================================================
+                           testimonial
+==============================================================*/
+/*---background---*/
+#testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/testimonial.jpg');
+  color: #fff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.content-title{
+ text-align: center;
+ padding-top: 50px;
+}
+.content-title-underline{
+  border-top: 5px solid #fff;
+  width: 80px;
+  margin-left: 48%;
+  margin-right: 40%;
+  margin-bottom: 30px;
+}
+
+/*---auth image---*/
+.testimg {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.testimg img {
+
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.testdesc {
+  margin-top: 10px;
+  /*border-left: 5px solid #ef8354;*/
+}
+
+
+
+#testimonials .content-box {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+  font-family: Georgia, sans-serif;
+  padding: 6px 150px;
+  font-style: italic;
+  position: relative;
+}
+
+.testimonial blockquote::after,
+.testimonial blockquote::before {
+  position: absolute;
+  font-size: 80px;
+  font-style: normal;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+}
+
+.testimonial blockquote::before {
+  content: "\201C";
+  top: 0;
+  left: 100px;
+}
+
+.testimonial blockquote::after {
+  content: "\201D";
+  bottom: 0;
+  right: 100px;
+}
+
+.testimonial-author p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.testimonial-author p strong {
+  display: block;
+}
+/*=========team==============*/
+#team{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/banner7.jpg');
+  padding-top: 10%;
+  padding-bottom: 10%;
+  }
+  #team img {
+      height: 200px;
+      border-radius: 400px;
+      width: 200px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+
+  .team-member {
+      margin: 0 15px;
+  }
+
+  .team-member-info {
+      padding: 10px 0 30px;
+      color:#fff;
+  }
+
+  h4.team-member-name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding-top: 20px;
+      color:#fff;
+  }
+
+
+  h4.team-member-designation {
+      color:#fff;
+      font-size: 15px;
+      font-weight: 700;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-top: 5px;
+  }
+
+  .social-list {
+      padding-left: 0;
+  }
+
+  .social-list li {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      margin-right: 6px;
+      margin-top: 10px;
+  }
+
+  .social-icon {
+      font-size: 17px;
+  }
+
+  .icon-orange i {
+      color: #8470ff;
+  }
+
+  .social-icon i:hover {
+      color: grey;
+  }
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-grey {
+    background: #F6F7F8;
+  }
+
+
+/*=========================================================
+	10 -> FOOTER
+===========================================================*/
+
+.footer {
+    margin: 15px 0px;
+  }
+
+  .footer .footer-header {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .footer-logo .logo {
+    display: inline-block;
+  }
+
+  .footer-logo .logo>img {
+    width: 100%;
+    max-height: 70px;
+  }
+
+  .footer-social>li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 6px;
+  }
+
+  .footer-social>li:last-child {
+    margin-right: 0px;
+  }
+
+  .footer-copyright {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .contain{
+
+    margin:0 150px 0 150px ;
+}
+.primary-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    color: #FFF;
+    background-color: blue;
+  }
+  .primary-btn:hover, .primary-btn:focus {
+    color: #FFF;
+    background-color: #30323A;
+  }
+  .input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 15px;
+    border: none;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 5px transparent;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+
+/*============================================================
+                          Forums
+==============================================================*/
+.forum-main-content{
+background: #8470ff;
+min-width: 100%;
+}
+#forum-main-section{
+    height: 330px;
+    background-color:grey;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+}
+.forum-block{
+    width: 100%;
+    display: table;
+}
+.forum-header{
+ margin-top: 10%;
+ display: table-cell;
+vertical-align: middle;
+text-align: center;
+float: left;
+color:#fffcf9;
+font-size: 20px;
+
+width: 70%;
+margin-left: 15%;
+
+}
+.forum-pages{
+    margin-top: 20px;
+    height: 35px;
+   background-color:#fff;
+  border-radius: 4px;
+}
+.forum-head{
+    margin-top: 20px;
+    height: 45px;
+   background-color:#fff;
+   border-radius: 4px;
+}
+.forum-img-circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.forum-thread{
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+
+}
+.forum-social{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.forum-icon{
+    font-size:50px;
+    margin-top: 10px;
+}
+
+
+/*============================================================
+                          authentification
+==============================================================*/
+
+.auth{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner1.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+
+
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.input{
+   width: 100%;
+}
+
+
+.search-title{
+    color:white;
+}
+
+
+
+.column1 {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+  }
+
+  .column2 {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+  }
+
+  .column3 {
+    float: left;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+  }
+
+
+.space {
+    float: left;
+    width: 5%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+@media (max-width: 575px) {
+    html,
+    body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    }
+
+    #about-bg-diagonal{
+        display: none;
+    }
+      }
+
+
+  @media (max-width: 767px) {
+    html,
+  body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  }
+  #about-bg-diagonal{
+    display: none;
+}
+   }
+
+
+  @media (max-width: 991px) {
+    html,
+  body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  }
+
+   }
+
+
+  @media (max-width: 1199px) {
+    html,
+  body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  }
+
+  }
+
+
