@@ -1,4 +1,4 @@
-@extends('layouts.page')
+@extends('layouts.auth')
 @section('content')
 <div class="auth">
 <div class="container">
@@ -7,11 +7,6 @@
             <div class="card">
                 <div class="card-header">
                 <h3>Log In</h3>
-                <div class="d-flex justify-content-end social_icon">
-					<!--<span><i class="fab fa-facebook-square"></i></span>
-					<span><i class="fab fa-google-plus-square"></i></span>
-					<span><i class="fab fa-twitter-square"></i></span>-->
-				</div>
                 </div>
 
                 <div class="card-body">
@@ -19,8 +14,8 @@
                         @csrf
 
                         <div class="input-group form-group ">
-                    
-                           
+
+
                             <div class="col-md-6">
                                 <input id="email" type="email" placeholder="email" class="input-form form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
 
@@ -33,7 +28,7 @@
                         </div>
 
                         <div class="input-group form-group ">
-                        
+
                             <div class="col-md-6">
                                 <input id="password" type="password" placeholder="password" class=" input-form form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
 
@@ -60,7 +55,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <input type="submit" value="Login" class="btn btn-primary float-right login_btn">
-                               
+
                             </div>
                         </div>
                     </form>
@@ -78,12 +73,12 @@
                         <a class="btn btn-link" href="{{ route('register') }}">
                             {{ __('Register') }}
                         </a>
-                   
-                    
+
+
     </div>
                     </div>
-				
-			
+
+
 
                 </div>
             </div>
