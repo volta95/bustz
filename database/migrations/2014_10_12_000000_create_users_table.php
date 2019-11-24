@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('fname');
             $table->string('lname');
             $table->string('email')->unique();
+            $table->integer('gender');
             $table->timestamp('email_verified_at')->nullable();
             $table->integer('phone_number')->unique();
             $table->string('password');
@@ -26,7 +27,7 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
 
-     
+
     }
 
     /**
