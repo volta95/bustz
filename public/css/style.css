@@ -665,8 +665,23 @@ margin-left: 15%;
 /*============================================================
                           authentification
 ==============================================================*/
-.card-body{
+.card{
     margin-top: 100px;
+    width:400px ;
+    height:400px ;
+    border-radius: 5px;
 }
-
-
+.card-register{
+height: 600px;
+}
+.input-form{
+    width: 100%;
+}
+#auth{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg-1.jpeg');
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    top: 0px;
+    background-size: cover;
+}

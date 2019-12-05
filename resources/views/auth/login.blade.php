@@ -16,7 +16,7 @@
                         <div class="input-group form-group ">
 
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <input id="email" type="email" placeholder="email" class="input-form form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
 
                                 @if ($errors->has('email'))
@@ -26,10 +26,10 @@
                                 @endif
                             </div>
                         </div>
-
+<br>
                         <div class="input-group form-group ">
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <input id="password" type="password" placeholder="password" class=" input-form form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
 
                                 @if ($errors->has('password'))
@@ -41,7 +41,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-12 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                     </form>
-                    <div class="card-footer">
+
 				        <div class="d-flex justify-content-center">
 				                @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
@@ -70,13 +70,13 @@
                 </div>
                 <div class="d-flex justify-content-center">
                    Don't have account
-                        <a class="btn btn-link" href="{{ route('register') }}">
+                        <a style="margin-left:8px" href="{{ route('register') }}">
                             {{ __('Register') }}
                         </a>
 
 
     </div>
-                    </div>
+
 
 
 
