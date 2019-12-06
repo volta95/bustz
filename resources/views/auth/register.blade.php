@@ -4,10 +4,9 @@
 <div class="container">
     <div class="d-flex justify-content-center h-100">
         <div class="col-md-8">
-            <div class="card-register">
-                <div class="card-header">
-                <h3>Register</h3>
-                </div>
+            <div class="card-register animated jello">
+                <h3 class="reg-header" style="padding-top:30px">Register</h3>
+
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -24,9 +23,6 @@
                                     </span>
                                 @endif
                             </div>
-                        </div>
-                        <div class="form-group row">
-
                             <div class="col-md-6">
                                 <input id="lname" placeholder="Last Name"type="text" class="input-form form-control{{ $errors->has('lname') ? ' is-invalid' : '' }}" name="lname" value="{{ old('lname') }}" required autofocus>
 
@@ -37,17 +33,8 @@
                                 @endif
                             </div>
                         </div>
-                        <div class="form-group row">
 
-                            <div class="col-md-6">
-                                   <select id="gender" name="gender">
-                                       <option value=""></option>
-                                       <option value="1">Male</option>
-                                       <option value="2">Female</option>
-                                   </select>
-                                </div>
 
-                        </div>
 
                         <div class="form-group row">
 
@@ -60,8 +47,6 @@
                                     </span>
                                 @endif
                             </div>
-                        </div>
-                        <div class="form-group row">
                             <div class="col-md-6">
                                 <input id="phone_number" type="text"placeholder="phone number" class="input-form form-control{{ $errors->has('phone_number') ? ' is-invalid' : '' }}" name="phone_number" value="{{ old('phone_number') }}" required>
 
@@ -73,6 +58,7 @@
                             </div>
                         </div>
 
+
                         <div class="form-group row">
                             <div class="col-md-6">
                                 <input id="password" type="password" placeholder="password" class="input-form form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
@@ -83,23 +69,35 @@
                                     </span>
                                 @endif
                             </div>
-                        </div>
 
-                        <div class="form-group row">
                             <div class="col-md-6">
                                 <input id="password-confirm" placeholder="confirm password" type="password" class="input-form form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                        <div class="form-group row">
 
+                                <div class="col-md-6">
+                                    <div class="row">
+                                            <div class="col-lg-2 col-md-2 col-sm-6">
+                                       Gender
+                                            </div>
+                                       <div class="col-lg-10 col-md-10 col-sm-6">
+                                       <input type="radio" value="Male" name="gender"> Male<br>
+                                       <input type="radio" value="Female" name="gender"> Female<br>
+                                       <input type="radio" value="Others" name="gender"> Others<br>
+                                       </div>
+                                    </div>
+                            </div>
+                            </div>
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-6">
                                  <input type="submit" value="Register" class="btn btn-primary float-right login_btn">
 
                             </div>
                         </div>
                         <div class="d-flex justify-content-center">
                             I have account
-                                 <a class="btn btn-link" href="{{ route('login') }}">
+                                 <a style="margin-left:10px" href="{{ route('login') }}">
                                      {{ __('Login') }}
                                  </a>
 

@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center h-100">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card animated jello">
                 <div class="card-header">
                 <h3>Log In</h3>
                 </div>
