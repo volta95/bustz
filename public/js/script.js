@@ -78,3 +78,6 @@ for (i = 0; i < dropdown.length; i++) {
   }
   });
 }
+$(document).ready(function(){
+    $(".dropdown-togle").dropdown();
+  });

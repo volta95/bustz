@@ -67,26 +67,55 @@
                                 </li>
                             @endif
                         @else
+                        <li class="nav-item dropdown">
+
+
+                                <i class="fas fa-comments icon-nav"></i>
+
+
+                    </li>
+                    <li class="nav-item">
+
+
+                            <i class="fas fa-envelope icon-nav"></i>
+
+
+                </li>
+                <li class="nav-item dropdown ">
+
+                        <div class="present"></div>
+                        <i class="fas fa-bell icon-nav dropdown-togle" id="menu1" data-toggle="dropdown"></i>
+                        <ul class="dropdown-lists" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                              </ul>
+
+            </li>
+                        <li class="nav-item dropdown">
+
+
+                                        <i class="fas fa-cogs icon-nav"></i>
+
+
+                            </li>
                             <li class="nav-item dropdown">
 
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->fname }} <span class="caret"></span>
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right account animated flipInY" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       <a  href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                       <i class="fas fa-sign-out-alt icon-nav"></i>
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
-                                </div>
-                            </li>
 
+                                </li>
                         @endguest
+
                     </ul>
 
             </div>
