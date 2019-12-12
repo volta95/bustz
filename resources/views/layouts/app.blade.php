@@ -92,10 +92,13 @@
                     </ul>
             </li>
 
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
 
 
-                                        <i class="fas fa-cogs icon-nav"></i>
+                                        <i class="fas fa-cogs icon-nav drop-dwn"></i>
+                                        <ul class="setting-content animated zoomIn">
+                                            <li class="set-header">ACCOUNT SETTING</li>
+                                        </ul>
 
 
                             </li>
