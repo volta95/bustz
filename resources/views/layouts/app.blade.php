@@ -74,26 +74,24 @@
 
 
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
 
 
                             <i class="fas fa-envelope icon-nav"></i>
 
 
+
                 </li>
-                <li class="nav-item dropdown ">
+                <li class="nav-item  ">
 
                         <div class="present"></div>
-                        <i class="fas fa-bell icon-nav dropdown-togle" id="menu1" data-toggle="dropdown"></i>
-                        <ul class="dropdown-lists" role="menu" aria-labelledby="menu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                              </ul>
-
+                        <i class="fas fa-bell icon-nav drop-dwn"></i>
+                        <ul class="not-lists animated shake">
+                                <li class="lists-items"><span class="not-header">You have 5 new notification</span></li>
+                            </ul>
+                    </ul>
             </li>
+
                         <li class="nav-item dropdown">
 
 
@@ -116,9 +114,9 @@
                                 </li>
                         @endguest
 
-                    </ul>
 
             </div>
+
         </nav>
         <div id="dash-content">
         <div id="sidenav">

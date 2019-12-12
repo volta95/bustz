@@ -78,6 +78,17 @@ for (i = 0; i < dropdown.length; i++) {
   }
   });
 }
-$(document).ready(function(){
-    $(".dropdown-togle").dropdown();
-  });
+var dropdwn=document.getElementsByClassName("drop-dwn");
+var j;
+
+for(j=0;j<dropdwn.length;j++){
+    dropdwn[j].addEventListener("click",function(){
+ this.classList.toggle("active");
+ var dropdwnContent = this.nextElementSibling;
+ if( dropdwnContent.style.display === "block"){
+     dropdwnContent.style.display = "none";
+ } else{
+     dropdwnContent.style.display = "block";
+ }
+    })
+}
