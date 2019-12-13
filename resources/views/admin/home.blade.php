@@ -2,66 +2,30 @@
 
 @section('content')
 <script type="text/javascript">
-
-    // Load the Visualization API and the corechart package.
     google.charts.load('current', {'packages':['corechart']});
-
-    // Set a callback to run when the Google Visualization API is loaded.
     google.charts.setOnLoadCallback(drawChart);
 
-    // Callback that creates and populates a data table,
-    // instantiates the pie chart, passes in the data and
-    // draws it.
     function drawChart() {
-
-
-      // Create the data table.
-      var data_incomestat = new google.visualization.DataTable();
-      data_incomestat.addColumn('string', 'Topping');
-      data_incomestat.addColumn('number', 'Slices');
-      data_incomestat.addRows([
-        ['Luxury', {{ $L }}],
-        ['Semi Luxury',{{ $S }}],
-        ['Normal', {{ $N }}]
-
+      var data = google.visualization.arrayToDataTable([
+        ['Year', 'Sales', 'Expenses'],
+        ['2004',  1000,      400],
+        ['2005',  1170,      460],
+        ['2006',  660,       1120],
+        ['2007',  1030,      540]
       ]);
 
+      var options = {
+        title: 'Company Performance',
+        curveType: 'function',
+        legend: { position: 'bottom' }
+      };
 
-      // Set chart options
-      var options_incomestat = {'title':'',
-                     'width':287,
-                     'height':300,
-                     is3D: true,
-                     'legend':'bottom',
-                     };
+      var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 
-    var data_salarystat = google.visualization.arrayToDataTable([
-    ['Quarks', 'Leptons', 'Gauge Bosons', 'Scalar Bosons'],
-    [2/3, -1, 0, 0],
-    [2/3, -1, 0, null],
-    [2/3, -1, 0, null],
-    [-1/3, 0, 1, null],
-    [-1/3, 0, -1, null],
-    [-1/3, 0, null, null],
-    [-1/3, 0, null, null]
-  ]);
-
-        var options_salarystat = {
-            title: 'Charges of subatomic particles',
-    legend: { position: 'top', maxLines: 2 },
-    colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
-    interpolateNulls: false,
-        };
-
-
-
-      // Instantiate and draw our chart, passing in some options.
-      var chart_incomestat = new google.visualization.PieChart(document.getElementById('income_stat'));
-      chart_incomestat.draw(data_incomestat,options_incomestat);
-      var chart_salarystat = new google.visualization.Histogram(document.getElementById('salary-stat'));
-        chart_salarystat.draw(data_salarystat, options_salarystat);
+      chart.draw(data, options);
     }
   </script>
+
 
 <div class="container-fluid dash-content">
   <div class="row">
@@ -90,71 +54,25 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="dash-card dash-card3">
-
+                    <i class="fas fa-road dashcard-icon"></i>
+                    <h5 class="number">{{count($routes) }}</h5>
+                    <div class="dash-text">Total routes</div>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="dash-card dash-card4">
-
+                    <i class="fas fa-comments dashcard-icon"></i>
+                    <h5 class="number">10</h5>
+                    <div class="dash-text">chats</div>
             </div>
         </div>
         </div>
     <div class="row panel-cont">
+        <div class="dash-statistic col-lg-12 col-md-12">
+            <h4 class="dash-cont-header">Busses Companies</h4>
+            <div id="curve_chart" style=" height:500px;background-color:none"></div>
 
-        <div class="col-lg-3 col-md-3 col-sm-12 ">
-            <div class="employer-panel">
-                <div class="container">
-                    <div class="panel-employee">
-                            <span class="icon"><i class="fa fa-user icons"></i> </span>
-                            <div class="contentss">
-                                    <div class="text">Total Bus companies</div>
-                                    <h5 class="number"></h5>
-                                </div>
-
-                    </div><hr><div class="panel-employees">
-                                <span class="icon"><i class="fa fa-users icons"></i> </span>
-                                <div class="contentsss">
-                                        <div class="text">Total Visitor</div>
-                                        <h5 class="number"></h5>
-                                    </div>
-                    </div>
-
-                </div>
-            </div>
-                <div class="employer-p">
-                        <div class="container">
-                                <div class="salary-total">
-                                        <span class="icon"><i class="fa fa-user icons"></i> </span>
-                                        <div class="salary-total-content">
-                                                <div class="text">Total income</div>
-                                                <h5 class="number">Tsh 60M</h5>
-                                            </div>
-                                        </div><hr>
-                                        <div class="salary-avg">
-                                                <span class="icon"><i class="fa fa-user icons"></i> </span>
-                                                <div class="salary-avg-content">
-                                                        <div class="text">Profit</div>
-                                                        <h5 class="number">Tsh 600k</h5>
-                                                    </div>
-                                                </div>
-
-                        </div>
-            </div>
-            </div>
-
-
-  <div class="col-lg-3 col-md-3 col-sm-12 ">
-      <div class="income-analysis">
-          <h4>Bus type Statistic</h4>
-          <div id="income_stat"></div>
-      </div>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 ">
-          <div class="salary-statistic">
-                  <h4>Ticket Statistic</h4>
-                  <div id="salary-stat"></div>
-          </div>
-      </div>
+        </div>
 
   </div>
   <div class="row hr-panel-sec">
@@ -258,6 +176,12 @@
 
           </div>
       </div>
+</div>
+<div class="row">
+    <div class="col-lg-">
+
+    </div>
+
 </div>
 <script type="text/javascript">
         $(document).ready(function() {
