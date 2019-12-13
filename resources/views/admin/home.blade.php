@@ -75,6 +75,33 @@
         </div>
 
   </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="dash-content-card">
+        <div class="dah-contents-card">
+                <i class="fas fa-envelope card-icon"></i>
+            <p class="card-text">Inbox <span>405</span></p>
+
+        </div>
+        <div class="dah-contents-card">
+
+
+        </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="dash-content-card">
+
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12">
+        <div class="dash-content-card">
+
+        </div>
+    </div>
+
+</div>
   <div class="row hr-panel-sec">
       <div class="col-lg-8 col-md-8 col-sm-12">
           <div class="company-admin" style="padding:10px;">
@@ -177,12 +204,7 @@
           </div>
       </div>
 </div>
-<div class="row">
-    <div class="col-lg-">
 
-    </div>
-
-</div>
 <script type="text/javascript">
         $(document).ready(function() {
             $('#dt-table').DataTable(
