@@ -78,12 +78,14 @@
             <div class="dash-card dash-card1">
                <i class="fa fa-users dashcard-icon"></i>
                 <h5 class="number">{{ Counter::allHits() }}</h5>
-                <div class="text">Total Visitor</div>
+                <div class="dash-text">Total Visitor</div>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="dash-card dash-card2">
-
+                    <i class="fas fa-bus-alt dashcard-icon"></i>
+                    <h5 class="number">{{count($companies) }}</h5>
+                    <div class="dash-text">Total companies</div>
             </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
@@ -106,7 +108,7 @@
                             <span class="icon"><i class="fa fa-user icons"></i> </span>
                             <div class="contentss">
                                     <div class="text">Total Bus companies</div>
-                                    <h5 class="number">{{count($companies) }}</h5>
+                                    <h5 class="number"></h5>
                                 </div>
 
                     </div><hr><div class="panel-employees">
