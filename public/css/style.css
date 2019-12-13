@@ -14,13 +14,6 @@ height: 100%;
 width: 100%;
 top: 0px;
 }
-.modal {
-    position: absolute;
-    top: 100px;
-    z-index: 10040;
-    overflow: auto;
-    overflow-y: auto;
- }
 
 
 ul{
@@ -31,18 +24,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.facebook-color{
-    color: #3b5998;
-}
-.twitter-color{
-    color:#38A1F3
-}
-.instagram-color{
-    color: #c13584;
-}
-.pinterest-color{
-    color: #c8232c;
-}
+
 /*-------------home-------------------*/
 
 /*-------------background-------------------*/
@@ -190,7 +172,7 @@ float: right;
        display: block;
    }
    #navbar{
-background-color: #fff;
+background-color: #30323A;
 }
 .toggle-nav{
 font-size: 25px;
@@ -201,7 +183,7 @@ float: right;
 
     @media only screen and (min-width: 680px) {
         .nav-bar{
-            background-color: #fffcf9;
+            background-color: #30323A;
         }
         #navbar{
 
@@ -696,3 +678,16 @@ border-radius: 5px;
 }
 
 
+/*====brand color===*/
+.facebook-color{
+    color: #3b5998;
+}
+.twitter-color{
+    color:#38A1F3
+}
+.instagram-color{
+    color: #c13584;
+}
+.pinterest-color{
+    color: #c8232c;
+}

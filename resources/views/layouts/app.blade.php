@@ -98,6 +98,7 @@
                                         <i class="fas fa-cogs icon-nav drop-dwn"></i>
                                         <ul class="setting-content animated zoomIn">
                                             <li class="set-header">ACCOUNT SETTING</li>
+                                            <li class="set-icon">Basic account</li>
                                         </ul>
 
 

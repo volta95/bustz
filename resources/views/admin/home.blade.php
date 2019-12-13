@@ -73,8 +73,32 @@
     <div class="col-lg-9 col-md-9"></div>
 
 </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="dash-card dash-card1">
+               <i class="fa fa-users dashcard-icon"></i>
+                <h5 class="number">{{ Counter::allHits() }}</h5>
+                <div class="text">Total Visitor</div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="dash-card dash-card2">
 
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="dash-card dash-card3">
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="dash-card dash-card4">
+
+            </div>
+        </div>
+        </div>
     <div class="row panel-cont">
+
         <div class="col-lg-3 col-md-3 col-sm-12 ">
             <div class="employer-panel">
                 <div class="container">
@@ -89,7 +113,7 @@
                                 <span class="icon"><i class="fa fa-users icons"></i> </span>
                                 <div class="contentsss">
                                         <div class="text">Total Visitor</div>
-                                        <h5 class="number">{{ Counter::allHits() }}</h5>
+                                        <h5 class="number"></h5>
                                     </div>
                     </div>
 

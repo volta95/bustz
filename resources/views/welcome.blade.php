@@ -58,11 +58,11 @@
 </div>
                     <div class="social-media-icons">
                         <ul>
-                        <li><a href=""><ion-icon class="social-icons" name="logo-facebook"></ion-icon></a></li>
-                        <li><a href=""><ion-icon class="social-icons" name="logo-twitter"></ion-icon></a></li>
-                        <li><a href=""><ion-icon class="social-icons" name="logo-instagram"></ion-icon></a></li>
-                        <li><a href=""><ion-icon class="social-icons" name="mail"></ion-icon></a></li>
-                        <li><a href=""><ion-icon class="social-icons" name="logo-pinterest"></ion-icon></ion-icon></a></li>
+                        <li><a href=""><ion-icon class="social-icons facebook-color" name="logo-facebook"></ion-icon></a></li>
+                        <li><a href=""><ion-icon class="social-icons twitter-color" name="logo-twitter"></ion-icon></a></li>
+                        <li><a href=""><ion-icon class="social-icons instagram-color" name="logo-instagram"></ion-icon></a></li>
+                        <li><a href=""><ion-icon class="social-icons " name="mail"></ion-icon></a></li>
+                        <li><a href=""><ion-icon class="social-icons pinterest-color" name="logo-pinterest"></ion-icon></ion-icon></a></li>
                         </ul>
                     </div>
                     <div class="container">
