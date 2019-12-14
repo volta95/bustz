@@ -479,7 +479,7 @@ border-radius: 5px;
 and (min-width : 321px) {
     #home{
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner1.jpg');
-        height: 50%;
+        height: 100%;
         width: 100%;
         margin: 0;
         top: 0px;
@@ -533,7 +533,7 @@ and (min-width : 321px) {
 and (max-width : 320px) {
     #home{
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner1.jpg');
-        height: 50%;
+        height: 80%;
         width: 100%;
         margin: 0;
         top: 0px;
@@ -546,6 +546,38 @@ and (max-width : 320px) {
     }
     .social-icons{
         display: none;
+     }
+     #navbar ul{
+
+         font-size: 20px;
+         padding: 5px;
+
+     }
+     .list{
+       margin-left: 20%;
+       margin-top: 20px;
+     }
+     #navbar ul li{
+         display: none;
+         margin-left: 10px;
+         margin-right: 10px;
+         padding: 10px;
+
+     }
+     .navi-link{
+         color: #fff;
+         text-decoration:none;
+     }
+     .navi-link:hover{
+         color: #fff;
+         text-decoration: none;
+         background-color:grey;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 20px;
+
      }
 
 
