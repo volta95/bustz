@@ -80,13 +80,35 @@
         <div class="dash-content-card">
         <div class="dah-contents-card">
                 <i class="fas fa-envelope card-icon"></i>
-            <p class="card-text">Inbox <span>405</span></p>
+            <p class="card-text">Inbox <span class="card-number b-orange">405</span></p>
 
         </div>
         <div class="dah-contents-card">
-
+                <i class="fas fa-eye card-icon"></i>
+            <p class="card-text">Site Visitor <span class="card-number b-blue">{{ Counter::allHits() }}</span></p>
 
         </div>
+        <div class="dah-contents-card">
+                <i class="fas fa-comments card-icon"></i>
+            <p class="card-text">Chat <span class="card-number b-pink">405</span></p>
+
+        </div>
+        <div class="dah-contents-card">
+                <i class="fas fa-bus card-icon"></i>
+            <p class="card-text">Companies <span class="card-number b-yellow">405</span></p>
+
+        </div>
+        <div class="dah-contents-card">
+                <i class="fas fa-bell card-icon"></i>
+            <p class="card-text">Notifications <span class="card-number b-black">405</span></p>
+
+        </div>
+        <div class="dah-contents-card">
+                <i class="fas fa-road card-icon"></i>
+            <p class="card-text">Routes <span class="card-number b-green">405</span></p>
+
+        </div>
+
 
         </div>
     </div>
