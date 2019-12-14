@@ -48,7 +48,7 @@
         <div class="col-lg-3 col-md-3 col-sm-12">
             <div class="dash-card dash-card2">
                     <i class="fas fa-bus-alt dashcard-icon"></i>
-                    <h5 class="number">{{count($companies) }}</h5>
+                    <h5 class="number">{{ count($companies) }}</h5>
                     <div class="dash-text">Total companies</div>
             </div>
         </div>
@@ -95,7 +95,7 @@
         </div>
         <div class="dah-contents-card">
                 <i class="fas fa-bus card-icon"></i>
-            <p class="card-text">Companies <span class="card-number b-yellow">405</span></p>
+            <p class="card-text">Companies <span class="card-number b-yellow">{{ count($companies) }}</span></p>
 
         </div>
         <div class="dah-contents-card">
@@ -105,7 +105,7 @@
         </div>
         <div class="dah-contents-card">
                 <i class="fas fa-road card-icon"></i>
-            <p class="card-text">Routes <span class="card-number b-green">405</span></p>
+            <p class="card-text">Routes <span class="card-number b-green">{{ count($routes) }}</span></p>
 
         </div>
 
