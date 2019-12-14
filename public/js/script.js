@@ -43,6 +43,26 @@ $(document).ready(function(){
         smartSpeed: 700,
         loop: true,
         autoplayHoverPause: true,
+        responsive:{
+            600:{
+                items:2
+            },
+            480:{
+                    items:1
+            },
+            0:{
+                items:1
+            },
+            321:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            800:{
+                items:3
+            }
+        }
     });
 
 
