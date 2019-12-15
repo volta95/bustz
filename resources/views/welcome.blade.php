@@ -258,11 +258,11 @@
                         <div id="team-members" class="owl-carousel owl-theme">
                             <div class="team-member">
                             <div class="team_pic">
-                                <img src="{{ asset('images/user.png') }}"  alt="team-member">
+                                <img src="{{ asset('images/mase.jpeg') }}"  alt="team-member">
                                 </div>
                                 <div class="team-member-info text-center">
                                     <h4 class="team-member-name">Masenu K Msuya</h4>
-                                    <h4 class="team-member-designation">Co-Founder & </h4>
+                                    <h4 class="team-member-designation">Co-Founder & Full-stack developer</h4>
 
                                 </div>
                             </div>
@@ -270,43 +270,22 @@
                                 <img src="{{ asset('images/user.png') }}" alt="team-member">
                                 <div class="team-member-info text-center">
                                     <h4 class="team-member-name">Richard Mmari</h4>
-                                    <h4 class="team-member-designation">Operation Manager & Co-Founder</h4>
+                                    <h4 class="team-member-designation">Co-Founder & Back-end developer</h4>
 
                                 </div>
                             </div>
 
-                            <div class="team-member">
-                                <img src="{{ asset('images/user.png') }}" alt="team-member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">Editha P Mtema</h4>
-                                    <h4 class="team-member-designation">Content Manager & Co-Founder</h4>
 
-                                </div>
-                            </div>
-                            <div class="team-member">
-                                <img src="{{ asset('images/user.png') }}" alt="team-member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">Ebenezer C Mlay</h4>
-                                    <h4 class="team-member-designation">Head of ict & Co-Founder</h4>
 
-                                </div>
-                            </div>
                             <div class="team-member">
                                 <img src="{{ asset('images/user.png') }}" alt="team-member">
                                 <div class="team-member-info text-center">
                                     <h4 class="team-member-name">Emmanuel Lema</h4>
-                                    <h4 class="team-member-designation">Customer services & End-User</h4>
+                                    <h4 class="team-member-designation">Co-Founder & Back-end developer</h4>
 
                                 </div>
                             </div>
-                            <div class="team-member">
-                                <img src="{{ asset('images/user.png') }}" alt="team-member">
-                                <div class="team-member-info text-center">
-                                    <h4 class="team-member-name">Gastone E Malembo</h4>
-                                    <h4 class="team-member-designation">Head of sales & Co-Founder</h4>
 
-                                </div>
-                            </div>
                         </div>
 
                         </div>
