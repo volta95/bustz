@@ -302,23 +302,25 @@
     <!--headin5_amrc-->
     <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
     <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
-    <p><i class="fa fa-phone"></i>  +255784843475  </p>
-    <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+    <p> <i class="fa fa-phone" aria-hidden="true"></i><a  style="color:white" href="tel:+255784843475"> +255784843475</a>
+    </p>
+    <p><i class="fa fa fa-envelope"></i> info@bustz.co.tz  </p>
 
 
     </div>
 
 
     <div class=" col-sm-4 col-md  col-6 col">
-    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+    <h5 class="headin5_amrc col_white_amrc pt2">Site links</h5>
     <!--headin5_amrc-->
     <ul class="footer_ul_amrc">
-    <li><a href="http://webenlance.com">Image Rectoucing</a></li>
-    <li><a href="http://webenlance.com">Clipping Path</a></li>
-    <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
-    <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
-    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
-    <li><a href="http://webenlance.com">Image Cropping</a></li>
+        <li><a href="">Application</a></li>
+        <li><a href="">Register</a></li>
+        <li><a href="">My ticket</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a class="navi-link" href="{{ route('login') }}" >
+            {{ __('Login') }}
+    </a></li>
     </ul>
     <!--footer_ul_amrc ends here-->
     </div>
@@ -328,25 +330,22 @@
     <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
     <!--headin5_amrc-->
     <ul class="footer_ul_amrc">
-    <li><a href="http://webenlance.com">Remove Background</a></li>
-    <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
-    <li><a href="http://webenlance.com">Logo Design</a></li>
-    <li><a href="http://webenlance.com">Vectorization</a></li>
-    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
-    <li><a href="http://webenlance.com">Image Cropping</a></li>
+    <li><a href="https://www.sumatra.go.tz/">Sumatra</a></li>
+    <li><a href="">TRA</a></li>
+    <li><a href="">Traffic</a></li>
+
+
     </ul>
     <!--footer_ul_amrc ends here-->
     </div>
 
 
     <div class=" col-sm-4 col-md  col-12 col">
-    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+    <h5 class="headin5_amrc col_white_amrc pt2">Subscribe</h5>
     <!--headin5_amrc ends here-->
 
     <ul class="footer_ul2_amrc">
-    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
-    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+
     </ul>
     <!--footer_ul2_amrc ends here-->
     </div>
@@ -372,8 +371,10 @@
             </li>
     </ul>
     <!--foote_bottom_ul_amrc ends here-->
-    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Bustz</a></p>
-
+    <p class="text-center">Copyright @ <span id="year"></span> | Designed With by <a href="#">Bustz</a></p>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
     <ul class="social_footer_ul">
     <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
     <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
