@@ -37,13 +37,13 @@
                             <div class="list">
                         <li><a href="#" class="toggle-nav"><ion-icon name="menu"></ion-icon></a></li>
 
-                        <li><a class="navi-link" href="#home">Home</a></li>
-                        <li><a class="navi-link" href="#about">About us</a></li>
-                        <li><a class="navi-link" href="#testimonial">Testimonial</a></li>
-                        <li><a class="navi-link" href="#team">Team</a></li>
-                        <li><a class="navi-link" href="#footer">Contact</a></li>
-                        <li><a class="navi-link" href="/ticket">My Ticket</a></li>
-                        <li><a class="navi-link" href="companies/create">Application</a></li>
+                        <li><a class="navi-link" id="navi-link" href="#home">Home</a></li>
+                        <li><a class="navi-link" id="navi-link" href="#about">About us</a></li>
+                        <li><a class="navi-link" id="navi-link" href="#testimonial">Testimonial</a></li>
+                        <li><a class="navi-link" id="navi-link" href="#team">Team</a></li>
+                        <li><a class="navi-link" id="navi-link" href="#footer">Contact</a></li>
+                        <li><a class="navi-link" id="navi-link" href="/ticket">My Ticket</a></li>
+                        <li><a class="navi-link" id="navi-link" href="companies/create">Application</a></li>
 
                         <li>
                             <!-- Button trigger modal -->

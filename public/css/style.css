@@ -563,6 +563,17 @@ and (orientation : landscape) {
         font-size: 20px;
         margin-top: 30%;
     }
+
+    .nav-bar{
+        background-color: #323f45;
+    }
+    #navbar{
+
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+
+    }
     /*-------------social media-------------------*/
     .social-media-icons{
         float: right;
@@ -633,6 +644,17 @@ and (orientation : portrait) {
     .home-content{
         font-size: 20px;
         margin-top: 30%;
+    }
+
+    .nav-bar{
+        background-color: #323f45;
+    }
+    #navbar{
+
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+
     }
     /*-------------social media-------------------*/
     .social-media-icons{
@@ -748,7 +770,21 @@ and (min-width : 1224px) {
         padding-right: 0;
         margin-right: 0;
     }
+    .nav-bar{
+        background-color: #323f45;
 
+    }
+    #navbar{
+
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+
+    }
+    .navi-link-1{
+        color: #263238;
+        text-decoration: none;
+    }
 
 
     .social-media-icons ul{
@@ -846,6 +882,18 @@ and (min-width : 1824px) {
     top: 0px;
 
 }
+.nav-bar{
+    background-color: #323f45;
+
+}
+#navbar{
+
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+
 .home-content{
     font-size: 20px;
     margin-top: 20%;
