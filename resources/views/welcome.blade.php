@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
         <!--font awesome for fonts------>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <!---default style----->
+            <!---default style----->
 
          <link href="{{ asset('css/style.css') }}" rel="stylesheet">
         <!-- script -->
@@ -293,141 +293,98 @@
                 </div>
             </div>
 </section>
-<footer id="footer" class="section section-grey">
-        <!-- container -->
-        <div class="contain">
-          <!-- row -->
-          <div class="row">
-            <!-- footer widget -->
-            <div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="footer">
-                <!-- footer logo -->
-                <div class="footer-logo">
-                  <a class="logo" href="#">
-                    <img src="./img/logo.png" alt="">
-                  </a>
-                </div>
-                <!-- /footer logo -->
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
-
-                <!-- footer social -->
-                <ul class="footer-social">
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                </ul>
-                <!-- /footer social -->
-              </div>
-            </div>
-            <!-- /footer widget -->
-
-            <!-- footer widget -->
-            <div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-header">useful link</h3>
-                <ul class="list-links">
-                    <li><a href="https://www.sumatra.go.tz/">Surface and Marine Transport Regulatory Authority (SUMATRA)</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- /footer widget -->
-
-            <div class="clearfix visible-sm visible-xs"></div>
-
-            <!-- footer widget -->
-            <div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-header">Customer Service</h3>
-                <ul class="list-links">
-                    <li><i class="fa fa-building" aria-hidden="true"></i>&nbsp;Shabaan Robert Street</li>
-                    <li><i class="fa fa-bed" aria-hidden="true"></i>&nbsp;Opposite National Museum</li>
-                    <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; P. O. Box 3918, Dar-es-Salaam,</li><li> <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Tanzania</li>
-                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;mail:<a href="mailto:info@ticket.co.tz">info@ticket.co.tz</a></li>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;Mobile:<a href="tel:+255784843475">&nbsp;+255(0) 784 843 475</a></li>
-                    <li style="margin-left:60px;"><a href="tel:+255713123138">+255(0) 713 123 138</a></li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- /footer widget -->
-
-            <!-- footer subscribe -->
-            <div class="col-md-3 col-sm-6 col-xs-6">
-              <div class="footer">
-                <h3 class="footer-header">Stay Connected</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                <form>
-                  <div class="form-group">
-                    <input class="input" placeholder="Enter Email Address">
-                  </div>
-                  <button class="primary-btn">Join Newslatter</button>
-                </form>
-              </div>
-            </div>
-            <!-- /footer subscribe -->
-          </div>
-          <!-- /row -->
-          <hr>
-          <!-- row -->
-          <div class="row">
-                <div class="col-md-12 col-md-offset-12 text-center">
-              <!-- footer copyright -->
-              <div class="footer-copyright">
-
-              <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |Bustz|powered by BIT</p>
-                  </div>
-              <!-- /footer copyright -->
-            </div>
-          </div>
-          <!-- /row -->
-        </div>
-        <!-- /container -->
-      </footer>
-      <!-- /FOOTER -->
-
-      <!-- jQuery Plugins -->
-
-        <!--<div class="container">
-            <div style="text-align:left;" class="row">
-                    <div style="text-align:left;text-transform:uppercase;" class="col-sm-3 myCols">
-                            <div id="logo-footer"><a href=""><img src="{{asset('images/logo.png')}}" id="logo-image"></a></div>
-                        </div>
-                <div style="text-align:left;text-transform:uppercase;" class="col-sm-3 myCols">
-                    <h5>Address</h5>
-                    <ul style="font-size:12px;" > <li>Head office,</li>
-
-                    </ul>
-                </div>
-                <div  style="text-align:left;" class="col-sm-3 myCols">
-                    <h5 style="text-transform:uppercase;">USEFUL LINKS</h5>
-                    <ul>
-                        <li><a href="https://www.sumatra.go.tz/">Surface and Marine Transport Regulatory Authority (SUMATRA)</a></li>
-                    </ul>
-                </div>
-                <div style="text-align:left;text-transform:uppercase;" class="col-sm-3 myCols">
-                    <h5>Subscribe</h5>
-                    <ul >
-
-                    </ul>
-                </div>
+<!--footer starts from here-->
+<footer class="footer">
+    <div class="container bottom_border">
+    <div class="row">
+    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+    <!--headin5_amrc-->
+    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+    <p><i class="fa fa-phone"></i>  +255784843475  </p>
+    <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
 
 
-            </div>
-        </div>
-            <div class="social-networks">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="www.facebook.com/mastech" class="facebook"><i class="fa fa-facebook-official"></i></a>
-                <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-            </div>
-        <div class="footer-copyright">
-            <p>©Copyright <?php echo date('Y')?> ® online bus ticket  |   All Rights Reserved   |   Powered by BIT student</p>
-        </div>-->
+    </div>
+
+
+    <div class=" col-sm-4 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+    <li><a href="http://webenlance.com">Clipping Path</a></li>
+    <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+    <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+    <li><a href="http://webenlance.com">Image Cropping</a></li>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+
+
+    <div class=" col-sm-4 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <li><a href="http://webenlance.com">Remove Background</a></li>
+    <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+    <li><a href="http://webenlance.com">Logo Design</a></li>
+    <li><a href="http://webenlance.com">Vectorization</a></li>
+    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+    <li><a href="http://webenlance.com">Image Cropping</a></li>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+
+
+    <div class=" col-sm-4 col-md  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+    <!--headin5_amrc ends here-->
+
+    <ul class="footer_ul2_amrc">
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    </ul>
+    <!--footer_ul2_amrc ends here-->
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container">
+    <ul class="foote_bottom_ul_amrc">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="/ticket">My Ticket</a></li>
+        <li><a href="companies/create">Application</a></li>
+
+        <li>
+            <!-- Button trigger modal -->
+<a  href="{{ route('login') }}" >
+{{ __('Login') }}
+</a>
+            </li>
+    </ul>
+    <!--foote_bottom_ul_amrc ends here-->
+    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Bustz</a></p>
+
+    <ul class="social_footer_ul">
+    <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    <!--social_footer_ul ends here-->
+    </div>
+
     </footer>
-</div>
+
 
 
 <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
