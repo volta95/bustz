@@ -431,7 +431,20 @@ border-radius: 5px;
     color: #c8232c;
 }
 
-
+.input-search{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+}
+.btn-search{
+    height: 40px;
+    margin:0;
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+}
 /*========responsive======*/
 
 
